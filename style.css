@@ -90,17 +90,22 @@ Start of code for information and photos
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
     margin:0 20px 30px 20px;  
 }
 
 .information img {
-    width: 500px;
+    width: 300px; 
+    height: 300px; 
+    border: 15px solid rgb(22, 112, 128);
+    border-radius:20px; 
+    object-fit: cover;
 }
 
 .text {
     color: rgb(17, 16, 16); 
     font-size: 18px;
+    margin-top: 20px;
 }
 
 /* 
@@ -115,6 +120,8 @@ Start of for quote section
     flex-direction: column;
     justify-content:center;
     align-items: flex-end;
+    padding:0 100px; 
+
 }
 .quotesection p {
     font-size: 36px;
